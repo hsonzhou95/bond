@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+body {
+    background: #f5f5f5;
+    font-family: myFont, 'Microsoft PingFang', Arial, Helvetica, sans-serif
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('../fonts/PingFang\ Heavy.ttf') format('truetype'),
+}
+
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /* 解决IOS默认滑动很卡的情况 */
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none !important;
+    /* 点击事件去除高亮 */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    z-index: 10000;
+}
+
+input,
+textarea {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+}
+
+input {
+    -webkit-user-select: auto;
+    /*webkit浏览器*/
+    user-select: auto;
+    -o-user-select: auto;
+    -ms-user-select: auto;
+}
+
+textarea {
+    -webkit-user-select: auto;
+    /*webkit浏览器*/
+    user-select: auto;
+    -o-user-select: auto;
+    -ms-user-select: auto;
+}
+
+* {
+    -webkit-touch-callout: none;
+    /*系统默认菜单被禁用*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    -moz-user-select: none;
+    /*火狐*/
+    -ms-user-select: none;
+    /*IE10*/
+    user-select: none;
+    /* touch-action: none; */
+}
+
+/* 图片自适应 */
+img {
+    width: 100%;
+    /* height: auto; */
+    display: block;
+    /* border: none; */
+    -ms-interpolation-mode: bicubic;
+    /*为了照顾ie图片缩放失真*/
+}
+
+img[src="null"],
+img:not([src]) {
+    opacity: 0;
+}
+
+/* 初始化 */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+span,
+font,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+}
+
+body {
+    font-size: .18rem;
+    line-height: 1;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+strong {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #969696;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+/*单行溢出*/
+.eli {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*多行溢出 手机端使用*/
+.eli2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* 移动端点击a链接出现蓝色背景问题解决 */
+a:link,
+a:active,
+a:visited,
+a:hover {
+    background: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w33 {
+    width: 33.333333%;
+}
+
+.fx {
+    display: flex;
+    font-size: 0;
+}
+
+/* 自动换行 */
+.fx-w {
+    flex-wrap: wrap;
+}
+
+.fx-sa {
+    justify-content: space-around;
+}
+
+.fx-1 {
+    flex: 1;
+}
+
+.fl-left {
+    float: left;
+}
+
+.dis {
+    display: inline-block;
+}
