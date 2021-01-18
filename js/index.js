@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-07 16:08:29
- * @LastEditTime: 2021-01-11 09:39:10
+ * @LastEditTime: 2021-01-18 15:12:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \新建文件夹\index.js
@@ -43,35 +43,35 @@ $(function () {
         return res;
     };
     var data = [
-        { name: '上海', value: 344, rate: '90%', means: '1.5亿', house: '69户' ,area:'A赛区' },
-        {name: '辽宁',value:257,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '深圳', value: 259,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        { name: '北京', value:322,rate: '90%', means: '1.5亿', house: '69户' ,area:'A赛区'},
-        { name: '重庆', value:457,rate: '90%', means: '1.5亿', house: '69户' ,area:'A赛区'},
-        { name: '湖北', value: 298, rate: '90%', means: '1.5亿', house: '69户', area: 'A赛区' },
-        { name: '新疆', value: 356, rate: '90%', means: '1.5亿', house: '69户', area: 'A赛区' },
-        {name: '广东',value: 379,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '安徽', value: 288,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '天津', value: 34,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '河北', value: 279,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        { name: '陕西', value: 130,rate: '90%', means: '1.5亿', house: '69户' ,area:'A赛区'},
-        { name: '浙江', value: 233,rate: '90%', means: '1.5亿', house: '69户',area:'A赛区'},
-        {name: '山西', value: 123,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '吉林', value: 47,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '黑龙江', value: 55,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '山东',value:145,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '河南', value:  135,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '湖南', value:  2,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '海南', value:  4,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '四川', value:  5,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '贵州', value:  6,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '福建',value: 7,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '云南', value:  8,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '江西', value:  9,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '甘肃', value:10,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '广西',value: 11,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '内蒙古', value:  13,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
-        {name: '江苏', value:  14,rate:'90%',means:'1.5亿',house:'69户',area:'A赛区'},
+        { name: '上海', value: 344, rate: '0.15%', means: '58.65万', house: '260户' ,area:'A赛区' },
+        {name: '辽宁',value:257,rate:'0.04%',means:'5万',house:'267户',area:'A赛区'},
+        {name: '深圳', value: 259,rate:'7.53%',means:'3011.60万',house:'251户',area:'A赛区'},
+        { name: '北京', value:322,rate: '0.05%', means: '21.60万', house: '300户' ,area:'A赛区'},
+        { name: '重庆', value:457,rate: '0.09%', means: '11.58万', house: '307户' ,area:'A赛区'},
+        { name: '湖北', value: 298, rate: '0.06%', means: '8.00万', house: '153户', area: 'A赛区' },
+        { name: '新疆', value: 356, rate: '0.03%', means: '0.75万', house: '185户', area: 'A赛区' },
+        {name: '广东',value: 379,rate:'0.16%',means:'62.21万',house:'1996户',area:'A赛区'},
+        {name: '安徽', value: 288,rate:'0.00%',means:'0.00',house:'101户',area:'A赛区'},
+        {name: '天津', value: 34,rate:'1.58%',means:'47.50万',house:'221户',area:'A赛区'},
+        {name: '河北', value: 279,rate:'0.45%',means:'59.10万',house:'197户',area:'A赛区'},
+        { name: '陕西', value: 130,rate: '1.57%', means: '47.20万', house: '245户' ,area:'A赛区'},
+        { name: '浙江', value: 233,rate: '0.00%', means: '0.40万', house: '344户',area:'A赛区'},
+        {name: '山西', value: 123,rate:'0.32%',means:'9.70万',house:'252户',area:'A赛区'},
+        {name: '吉林', value: 47,rate:'0.20%',means:'5.85万',house:'97户',area:'A赛区'},
+        {name: '黑龙江', value: 55,rate:'0.07%',means:'2.10万',house:'308户',area:'A赛区'},
+        {name: '山东',value:145,rate:'0.12%',means:'15.69万',house:'1212户',area:'A赛区'},
+        {name: '河南', value:  135,rate:'0.07%',means:'9.20万',house:'971户',area:'A赛区'},
+        {name: '湖南', value:  2,rate:'0.08%',means:'31.30万',house:'3853户',area:'A赛区'},
+        {name: '海南', value:  4,rate:'0.00%',means:'0.10万',house:'142户',area:'A赛区'},
+        {name: '四川', value:  5,rate:'0.24%',means:'96.35万',house:'1640户',area:'A赛区'},
+        {name: '贵州', value:  6,rate:'0.34%',means:'10.30万',house:'62户',area:'A赛区'},
+        {name: '福建',value: 7,rate:'0.46%',means:'60.05万',house:'1249户',area:'A赛区'},
+        {name: '云南', value:  8,rate:'1.68%',means:'218.40万',house:'265户',area:'A赛区'},
+        {name: '江西', value:  9,rate:'0.24%',means:'95.40万',house:'733户',area:'A赛区'},
+        {name: '甘肃', value:10,rate:'0.01%',means:'1.00万',house:'463户',area:'A赛区'},
+        {name: '广西',value: 11,rate:'0.33%',means:'9.92万',house:'85户',area:'A赛区'},
+        {name: '内蒙古', value:  13,rate:'0.08%',means:'2.45万',house:'182户',area:'A赛区'},
+        {name: '江苏', value:  14,rate:'0.02%',means:'7.10万',house:'733户',area:'A赛区'},
         
     ];
     var geoCoordMap = {
@@ -144,7 +144,7 @@ $(function () {
             // borderWidth:4,
             padding: 4,
             textStyle: {
-                fontSize:12
+                fontSize:10
             },
             position:'left',
             formatter: function (params) {
@@ -152,7 +152,8 @@ $(function () {
                 // return params.name + ' : ' + params.value[2];
                 return `<div class="active">
                     <div class="modal">
-                        <div class="address">投资业务资产规模</div>
+                        <div>全国累计基金投顾开户数1.70万户</div>
+                        <div>新增投顾资产管理规模3908.6万元</div>
                         <div class="text">所属赛区：${params.data.area}</div>
                         <div class="car-num">
                             <div class="left">
@@ -197,65 +198,65 @@ $(function () {
                 }
             }
             },
-            {
-                type: 'scatter',
-                coordinateSystem: 'geo',
-                data: convertData(data),
-                //气泡大小
-                symbolSize: function (val) {
-                    return val[1] / 7;
-                },
-                label: {
-                    normal: {
-                        formatter: '{b}',
-                        position: 'right',
-                        show: false
-                    },
-                    emphasis: {
-                        show: true
-                    }
-                },
-                itemStyle: {
-                    normal: {
-                        color: '#ebd6b2'
-                    }
-                }
-            },
-            {
-                name: 'Top5',
-                type: 'effectScatter',
-                coordinateSystem: 'geo',
-                data: convertData(data.sort(function (a, b) {
-                    return b.value - a.value;
-                }).slice(0, 9)),
-                symbolSize: function (val) {
+            // {
+            //     type: 'scatter',
+            //     coordinateSystem: 'geo',
+            //     data: convertData(data),
+            //     //气泡大小
+            //     symbolSize: function (val) {
+            //         return val[1] / 7;
+            //     },
+            //     label: {
+            //         normal: {
+            //             formatter: '{b}',
+            //             position: 'right',
+            //             show: false
+            //         },
+            //         emphasis: {
+            //             show: true
+            //         }
+            //     },
+            //     itemStyle: {
+            //         normal: {
+            //             color: '#ebd6b2'
+            //         }
+            //     }
+            // },
+            // {
+            //     name: 'Top5',
+            //     type: 'effectScatter',
+            //     coordinateSystem: 'geo',
+            //     data: convertData(data.sort(function (a, b) {
+            //         return b.value - a.value;
+            //     }).slice(0, 9)),
+            //     symbolSize: function (val) {
                     
-                    return val[2]/ 35;
+            //         return val[2]/ 35;
 
                 
-                },
-                showEffectOn: 'render',
-                rippleEffect: {
-                    brushType: 'stroke'
-                },
-                hoverAnimation: true,
-                label: {
-                    normal: {
-                        formatter: '{b}',
-                        position: 'right',
-                        fontSize:8,
-                        show: true
-                    }
-                },
-                itemStyle: {
-                    normal: {
-                        color: '#fcf9f4',
-                        shadowBlur: 10,
-                        shadowColor: '#ffffff'
-                    }
-                },
-                zlevel: 1
-            }
+            //     },
+            //     showEffectOn: 'render',
+            //     rippleEffect: {
+            //         brushType: 'stroke'
+            //     },
+            //     hoverAnimation: true,
+            //     label: {
+            //         normal: {
+            //             formatter: '{b}',
+            //             position: 'right',
+            //             fontSize:8,
+            //             show: true
+            //         }
+            //     },
+            //     itemStyle: {
+            //         normal: {
+            //             color: '#fcf9f4',
+            //             shadowBlur: 10,
+            //             shadowColor: '#ffffff'
+            //         }
+            //     },
+            //     zlevel: 1
+            // }
         ]
 
     }

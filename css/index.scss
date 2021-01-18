@@ -16,7 +16,7 @@ body {
 
     .main {
         position: absolute;
-        padding: 0 .28rem;
+        padding: 0 .24rem;
         box-sizing: border-box;
         width: $width;
         height: $height;
@@ -98,6 +98,7 @@ body {
                                         margin-right: .08rem;
                                     }
 
+
                                 }
 
                                 .cd:first-child {
@@ -135,7 +136,7 @@ body {
                 border: .01rem solid #EAD588;
                 margin-bottom: .28rem;
                 border-radius: .26rem;
-                padding: .28rem .28rem .26rem .1rem;
+                padding: .28rem .14rem 0 .1rem;
 
                 .cd-lf {
                     padding-top: .4rem;
@@ -155,10 +156,10 @@ body {
                 }
 
                 .cd-rg {
-                    width: 82%;
+                    width: 84%;
 
                     .rg-card-info {
-                        width: .92rem;
+                        width: 1.06rem;
 
                         .tp-info {
                             width: 100%;
@@ -179,7 +180,9 @@ body {
                                 text-align: center;
                                 line-height: .58rem;
                                 font-weight: 600;
+
                             }
+
                         }
 
                         .bt-info {
@@ -201,15 +204,15 @@ body {
                                 height: .56rem;
                                 background: linear-gradient(0deg, #B12A23, #EA4F47);
                                 border-radius: .2rem;
-                                font-size: .18rem;
                                 letter-spacing: .02rem;
                                 font-weight: 600;
+                                font-size: .18rem;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
 
                                 div:first-child {
-                                    font-size: .32rem;
+                                    font-size: .18rem;
                                 }
                             }
                         }
@@ -235,6 +238,17 @@ body {
 
     .weekly {
         z-index: 4;
+
+        .tips-title {
+            position: absolute;
+            top: 4.88rem;
+            left: 0;
+            transform: translate(26%, -50%);
+            line-height: .6rem;
+            letter-spacing: .01rem;
+            font-size: .32rem;
+            font-weight: 600;
+        }
 
         .hd-title {
             position: absolute;
@@ -274,6 +288,15 @@ body {
             // width: 6.94rem;
             // height: 54%;
             margin: 4.8rem auto 0;
+        }
+
+        .foot-bg {
+            background: url(../../img/bg-foot.png) no-repeat center;
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 1.3rem;
         }
     }
 
@@ -352,4 +375,10 @@ body {
     }
 
 
+}
+
+@media screen and (max-width:360px) {
+    .maps {
+        width: 328px !important;
+    }
 }
